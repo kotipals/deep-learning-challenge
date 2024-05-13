@@ -17,12 +17,13 @@ I pre-processed the data using the following methods:
 6. Used the StandardScaler method to scale the training and testing sets.
 
 ### Step 2: Compile, Train, and Evaluate the Model
-I then created a neural network model with the following hyperparameters:\
+I then created a neural network model with the following hyperparameters: \
 Contains 2 Layers \
     Layer 1 - 80 neurons, activation function - relu  \
     Layer 2 - 30 neurons, activation function - relu \
     Outer Layer - 1 neuron, activation function - sigmoid \
-Epochs - 100 \ 
+Epochs - 100 
+
 This resulted in a model with an accuracy of 72.84%.
 
 ### Step 3: Optimization
@@ -30,8 +31,7 @@ This resulted in a model with an accuracy of 72.84%.
 The target predictive accuracy we were trying to achieve was higher than 75%. So we tried to optimize the model through a variety of methods to see if that would increase the accuracy. 
 
 ### Attempt #1:
-In this attempt, I made changes to the data set by dropping more columns and creating more bins. I dropped the USE_CASE_COLUMN. I also created changed how the data was being binned together by changing the thresholds for the APPLICATION_TYPE and CLASSIFICATION columns. \
-I then created a neural network model with the same hyperparameters as before: \
+In this attempt, I made changes to the data set by dropping more columns and creating more bins. I dropped the USE_CASE_COLUMN. I also created changed how the data was being binned together by changing the thresholds for the APPLICATION_TYPE and CLASSIFICATION columns. I then created a neural network model with the same hyperparameters as before: \
 Contains 2 Layers \
     Layer 1 - 80 neurons, activation function - relu  \
     Layer 2 - 30 neurons, activation function - relu \
@@ -67,4 +67,4 @@ In all three attempts I was not able to achieve the target accuracy score of 75%
 ### Code
 Please find my code and analsis in the following files: \
 AlphabetSoupCharity.ipynb \
-AlphabetSoupCharity_Optimization.ipynb \
+AlphabetSoupCharity_Optimization.ipynb
