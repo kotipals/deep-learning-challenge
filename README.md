@@ -20,6 +20,7 @@ I pre-processed the data using the following methods:
 
 Step 2: Compile, Train, and Evaluate the Model
 I then created a neural network model with the following hyperparameters:
+
 Contains 2 Layers 
     Layer 1 - 80 neurons, activation function - relu  
     Layer 2 - 30 neurons, activation function - relu
